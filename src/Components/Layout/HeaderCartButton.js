@@ -46,7 +46,7 @@ const HeaderCartButton = (props) => {
         <CartIcon />{" "}
         {/*Custom file given by Udemy. Just import of a SVG image file */}
       </span>
-      <span>Your Cart</span>
+      <span className={classes.cartButtonText}>Your Cart</span>
       <span className={classes.badge}>{numberOfCartItems}</span>
     </button>
   );

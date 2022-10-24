@@ -27,3 +27,9 @@
   object-fit: cover;
   transform: rotateZ(-5deg) translateY(-4rem) translateX(-1rem);
 }
+
+@media screen and (max-width: 615px) {
+  .headerText {
+    font-size: 20px;
+  }
+}

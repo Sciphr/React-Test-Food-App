@@ -57,3 +57,13 @@
     transform: scale(1);
   }
 }
+
+@media screen and (max-width: 615px) {
+  .cartButtonText {
+    display: none;
+  }
+
+  .button {
+    padding: 0.5rem 1rem;
+  }
+}
