@@ -1,0 +1,49 @@
+[debug] [2022-10-24T15:44:08.497Z] ----------------------------------------------------------------------
+[debug] [2022-10-24T15:44:08.498Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\jacob\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-10-24T15:44:08.498Z] CLI Version:   11.8.0
+[debug] [2022-10-24T15:44:08.499Z] Platform:      win32
+[debug] [2022-10-24T15:44:08.499Z] Node Version:  v18.3.0
+[debug] [2022-10-24T15:44:08.500Z] Time:          Mon Oct 24 2022 11:44:08 GMT-0400 (Eastern Daylight Saving Time)
+[debug] [2022-10-24T15:44:08.500Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-10-24T15:44:08.554Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-10-24T15:44:08.554Z] > authorizing via signed-in user (jacobtberry99@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\React Course\react-food-app-section-11\food-app
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-10-24T15:44:11.884Z] Using project from CLI flag: quote-and-comment-tracker
+[debug] [2022-10-24T15:44:11.885Z] > refreshing access token with scopes: []
+[debug] [2022-10-24T15:44:11.887Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2022-10-24T15:44:11.887Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-24T15:44:12.098Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2022-10-24T15:44:12.098Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2022-10-24T15:44:12.107Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/quote-and-comment-tracker [none]
+[debug] [2022-10-24T15:44:12.469Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/quote-and-comment-tracker 200
+[debug] [2022-10-24T15:44:12.469Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/quote-and-comment-tracker {"projectId":"quote-and-comment-tracker","projectNumber":"529079572065","displayName":"React Test Food App","name":"projects/quote-and-comment-tracker","resources":{"hostingSite":"quote-and-comment-tracker"},"state":"ACTIVE","etag":"1_06e03bb1-acf3-4bec-bf4a-917430325763"}
+[info] i  Using project quote-and-comment-tracker (React Test Food App) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
